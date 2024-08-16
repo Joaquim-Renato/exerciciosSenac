@@ -5,7 +5,7 @@ var menorNota = Infinity;
 var numAlunes = 25;
 var somaNotas = 0;
 
-for (var contador = 1; contador <=24; contador++)  {
+for (var contador = 1; contador <=25; contador++)  {
     var nota = parseFloat(prompt(`Digite a nota do ${contador} aluno aqui : `))
 
  if (nota >= 0 && nota <= 10){
