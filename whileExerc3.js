@@ -6,7 +6,7 @@ var menorSaque = parseFloat(Infinity);
 
 //var saqueTotal = saqueUnit * clientes;
 
-while (clientes < 3 ) {
+while (clientes < 10 ) {
     var saqueUnit = parseFloat(prompt("Digite o valor que você deseja sacar: "));
     var saqueTotal = (clientes * saqueUnit);
     clientes += 1;
@@ -17,7 +17,7 @@ while (clientes < 3 ) {
 
     if (saqueUnit > maiorSaque) {
         var maiorSaque = saqueUnit
-        //document.write(`Saque de R$${saqueUnit.toFixed(2)} realizado com sucesso!`);
+       
     }
     if (saqueUnit < menorSaque) {
 
