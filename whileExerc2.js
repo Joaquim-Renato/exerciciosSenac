@@ -1,3 +1,4 @@
+// Calculadora de  Graus Celsius p/ Fahrenheit
 var cels = 0;
 var fahr = 0;
 

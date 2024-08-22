@@ -1,3 +1,5 @@
+// Sistema para printar a tabuada de determinado numero na tela
+
 var numero = parseInt(prompt("Digite um numero para ver a sua tabuada: "))
 var cont = 0
 var multiplicacao = 0 
