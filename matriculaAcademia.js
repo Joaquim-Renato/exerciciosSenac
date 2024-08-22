@@ -6,7 +6,7 @@ var anoCadastro = new Date().getFullYear().toString().slice(-2);
 var alunos = [];
 
 // Gerar 15 novas matrículas
-for (var contador = 1; contador <= 3; contador++) {
+for (var contador = 1; contador <= 15; contador++) {
 
      // entrada do nome do aluno (pode substituir por prompt em um navegador)
      var nome = prompt (`Digite o nome dy Alune ${contador}`);
