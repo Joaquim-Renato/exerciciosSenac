@@ -6,11 +6,14 @@ var menorSaque = parseFloat(Infinity);
 
 //var saqueTotal = saqueUnit * clientes;
 
-while (clientes < 3) {
+while (clientes < 3 ) {
     var saqueUnit = parseFloat(prompt("Digite o valor que você deseja sacar: "));
     var saqueTotal = (clientes * saqueUnit);
     clientes += 1;
 
+    if (isNaN (saqueUnit)){
+        alert("Insira uma valor valido!!!")
+    }
 
     if (saqueUnit > maiorSaque) {
         var maiorSaque = saqueUnit
@@ -21,10 +24,6 @@ while (clientes < 3) {
         var menorSaque = saqueUnit
 
     }
-
-    // if (clientes === 3 && saqueTotal === 3) {
-    //     var mediaSaques = (saqueTotal / clientes);
-    // }
 
 }
 
