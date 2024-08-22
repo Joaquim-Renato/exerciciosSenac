@@ -1,13 +1,13 @@
-var totalVacinas = 30; 
+var totalVacinas = 30;
 var somaDias = 0;
 
-for (var contador = 1; contador <= totalVacinas; contador++){
-    var diasNasc = parseInt(prompt(`Digite quantos dias de nascimento tem o BB ${contador}:`));
-   
-    
-    if(!isNaN(diasNasc)){
+for (var contador = 1; contador <= totalVacinas; contador++) {
+    var diasNasc = parseInt(prompt(`Digite quantos dias de nascimento tem o bebê ${contador}:`));
+
+
+    if (!isNaN(diasNasc)) {
         somaDias += diasNasc;
-    } else{
+    } else {
         alert("Por  favor insira uma valor valido!!");
         i--;
     }

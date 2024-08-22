@@ -6,18 +6,18 @@ var menorSaque = parseFloat(Infinity);
 
 //var saqueTotal = saqueUnit * clientes;
 
-while (clientes < 10 ) {
+while (clientes < 10) {
     var saqueUnit = parseFloat(prompt("Digite o valor que você deseja sacar: "));
     var saqueTotal = (clientes * saqueUnit);
     clientes += 1;
 
-    if (isNaN (saqueUnit)){
+    if (isNaN(saqueUnit)) {
         alert("Insira uma valor valido!!!")
     }
 
     if (saqueUnit > maiorSaque) {
         var maiorSaque = saqueUnit
-       
+
     }
     if (saqueUnit < menorSaque) {
 
