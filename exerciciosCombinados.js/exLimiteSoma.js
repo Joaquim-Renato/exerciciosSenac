@@ -18,4 +18,4 @@ while (true){
     }
 }
 
-document.write(`forma necessarios ${totalNumeros} números para alcançar uma soma maior ou igual a 100`);
+document.write(`forma necessarios ${totalNumeros} números para alcançar uma soma igual a 100`);
